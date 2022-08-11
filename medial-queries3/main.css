@@ -1,3 +1,116 @@
 body {
   background: peachpuff;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.a {
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.b {
+  width: 32%;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.c {
+  width: 32%;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.d {
+  width: 32%;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.e {
+  width: 32%;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.f {
+  width: 32%;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.g {
+  width: 32%;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.h {
+  width: 100%;
+  height: 100px; 
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: block;
+  }
+  .a {
+  width: 100%;
+  height: 80px;
+  display: inline-block;
+  }
+  .b {
+    width: 25%;
+    height: 80px;
+    display: inline-block;
+  }
+  .c {
+    width: 25%;
+    height: 80px;
+    display: inline-block;
+  }
+  .d {
+    width: 25%;
+    height: 80px;
+    display: inline-block;
+  }
+  .e {
+    width: 25%;
+    height: 80px;
+    display: inline-block;
+  }
+  .f {
+    width: 25%;
+    height: 80px;
+    display: inline-block;
+
+  }
+  .g {
+    width: 25%;
+    height: 80px;
+    display: inline-block;
+  }
+.h {
+  z-index: 1;
+  top: 100px;
+  width: 21%;
+  height: 25%;
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+}
+
+}
